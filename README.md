@@ -20,7 +20,7 @@ Given an undirected graph with V nodes and E edges, create and return an adjacen
 - `edges` (a list of edge pairs, where each pair `[u, v]` represents an undirected edge between nodes `u` and `v`).  
 
 **Output**:  
-An adjacency list of the graph.  
+- An adjacency list of the graph.  
 
 **Example**:  
 **Input**:  
@@ -43,7 +43,7 @@ Given a connected, undirected graph represented by an adjacency list, perform a 
 - An adjacency list where each index represents a node and contains a list of nodes connected to it.  
 
 **Output**:  
-A list containing the BFS traversal order.  
+- A list containing the BFS traversal order.  
 
 **Example**:  
 **Input**:  
@@ -72,7 +72,7 @@ Given a connected, undirected graph represented by an adjacency list, perform a 
 - An adjacency list where each index represents a node and contains a list of nodes connected to it.  
 
 **Output**:  
-A list containing the DFS traversal order.  
+- A list containing the DFS traversal order.  
 
 **Example**:  
 **Input**:  
@@ -101,7 +101,7 @@ Given a weighted, undirected, and connected graph with V vertices and E edges, f
 - Adjacency list representation of the graph, where each edge is represented as a pair `[node, weight]`.  
 
 **Output**:  
-The total weight of the MST.  
+- The total weight of the MST.  
 
 **Example**:  
 **Input**:  
