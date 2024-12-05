@@ -1,6 +1,6 @@
 # Homework 3 - Data Structures
 
-**Author**: Nelda 1123564  
+**Author: Nelda 1123564**
 
 ## Table of Contents
 - [Question 1: Adjacency List of a Graph](#question-1-adjacency-list-of-a-graph)
