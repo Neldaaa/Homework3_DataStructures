@@ -97,9 +97,7 @@ Starting from node 0:
 **Problem Statement**:  
 Given a weighted, undirected, and connected graph with V vertices and E edges, find the sum of the weights of the edges in the Minimum Spanning Tree (MST).  
 
-**Input**:  
-- `V` (number of vertices)  
-- `E` (number of edges)  
+**Input**:   
 - Adjacency list representation of the graph, where each edge is represented as a pair `[node, weight]`.  
 
 **Output**:  
@@ -108,7 +106,6 @@ The total weight of the MST.
 **Example**:  
 **Input**:  
 ```
-V = 3, E = 3  
 Edges: [[0, 1, 5], [1, 2, 3], [0, 2, 1]]
 ```  
 **Output**:  
