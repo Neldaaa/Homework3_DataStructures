@@ -1,7 +1,3 @@
-To adapt the content into the Homework 3 file format based on the style you provided earlier, here’s a clear and structured version for your Homework 3:
-
----
-
 # Homework 3 - Data Structures
 
 **Author**: Nelda 1123564  
@@ -123,7 +119,3 @@ Edges: [[0, 1, 5], [1, 2, 3], [0, 2, 1]]
 **Explanation**:  
 The MST consists of the edges `(0, 2)` with weight 1 and `(1, 2)` with weight 3. The total weight is `4`.  
 
----
-
-
-Would you like me to further format or enhance this?
