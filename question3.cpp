@@ -11,7 +11,7 @@ using namespace std;
 void dfsUtil(int node, vector<bool>& visited, vector<int>& dfsResult, const vector<vector<int>>& adj) {
     visited[node] = true; // Mark the current node as visited
     dfsResult.push_back(node); // Add the current node to the result
-
+    
     // Visit all the neighbors of the current node
     for (int neighbor : adj[node]) {
         if (!visited[neighbor]) { // If the neighbor hasn't been visited
@@ -41,6 +41,6 @@ int main() {
     for (int node : result) {
         cout << node << " "; // Print each visited node
     }
-    cout << endl; // New line after printing all nodes
+    cout << endl; 
     return 0; // Indicate successful completion
 }
