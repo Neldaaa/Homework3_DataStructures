@@ -23,8 +23,8 @@ bool compareEdges(const Edge& e1, const Edge& e2) {
 // Function to find the root of a node in the Union-Find data structure
 // This is used to keep track of the connected components in the graph
 int findRoot(vector<int>& parent, int u) {
-    // Recursively find the root of the node
-    // by following the parent pointers until we reach the root
+    // Recursively find the root of the node by
+    // following the parent pointers until we reach the root
     if (parent[u] != u) {
         parent[u] = findRoot(parent, parent[u]);
     }
